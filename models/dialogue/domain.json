@@ -1,0 +1,18 @@
+{
+  "states": [
+    "intent_Bye",
+    "intent_Greeting",
+    "intent_getCarPrice",
+    "entity_name",
+    "entity_carMake",
+    "entity_carModel",
+    "entity_carYear",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_return_price_low",
+    "prev_utter_return_price_high",
+    "prev_utter_bye"
+  ]
+}

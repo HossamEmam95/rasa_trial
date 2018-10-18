@@ -1,0 +1,29 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_return_price_low
+- utter_return_price_high
+- utter_bye
+config:
+  store_entities_as_slots: true
+entities:
+- name
+- carMake
+- carModel
+- carYear
+intents:
+- getCarPrice:
+    use_entities: true
+- Greeting:
+    use_entities: true
+- Bye:
+    use_entities: true
+slots: {}
+templates:
+  utter_greet:
+  - text: Hey, how can I help you?
+  utter_return_price_high:
+  - text: the price is high
+  utter_return_price_low:
+  - text: the price is low

@@ -1,0 +1,117 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "getCarPrice",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "Toyota",
+            "entity": "carMake"
+          },
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Corolla",
+            "entity": "carModel"
+          },
+          {
+            "start": 40,
+            "end": 44,
+            "value": "2018",
+            "entity": "carYear"
+          }
+        ],
+        "text": "I want to know the price Toyota Corolla 2018"
+      },
+      {
+        "intent": "getCarPrice",
+        "entities": [
+          {
+            "start": 34,
+            "end": 38,
+            "value": "Ford",
+            "entity": "carMake"
+          },
+          {
+            "start": 39,
+            "end": 45,
+            "value": "Fusion",
+            "entity": "carModel"
+          },
+          {
+            "start": 46,
+            "end": 50,
+            "value": "2017",
+            "entity": "carYear"
+          }
+        ],
+        "text": "I would like to know the price of Ford Fusion 2017"
+      },
+      {
+        "intent": "getCarPrice",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "Honda",
+            "entity": "carMake"
+          },
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Civic",
+            "entity": "carModel"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "2018",
+            "entity": "carYear"
+          }
+        ],
+        "text": "How much is Honda Civic 2018"
+      },
+      {
+        "intent": "Greeting",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "Jack",
+            "entity": "name"
+          }
+        ],
+        "text": "hi Jack"
+      },
+      {
+        "intent": "Greeting",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "Tim",
+            "entity": "name"
+          }
+        ],
+        "text": "hello Tim"
+      },
+      {
+        "intent": "Greeting",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "Sara",
+            "entity": "name"
+          }
+        ],
+        "text": "good morning Sara"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

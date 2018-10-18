@@ -1,0 +1,30 @@
+intents:
+# place your intents
+ - getCarPrice
+ - Greeting
+ - Bye
+
+entities:
+# place your entities
+ - name
+ - carMake
+ - carModel
+ - carYear
+
+templates:
+# sample replies
+ utter_greet:
+  - "Hey, how can I help you?"
+ utter_return_price_high:
+  - "the price is high"
+ utter_return_price_low:
+  - "the price is low"
+utter_bye:
+  - "Bye!"
+actions:
+# templates (as they are reply actions),
+# also custom actions if any
+ - utter_greet
+ - utter_return_price_low
+ - utter_return_price_high
+ - utter_bye
